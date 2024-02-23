@@ -1,7 +1,9 @@
 .container{
-    background-color: gainsboro;
+    /* background-color: gainsboro; */
     box-sizing: border-box;
-    overflow: hidden
+    overflow: hidden;
+    /* border: 1px solid red; */
+  
 }
 
 
@@ -25,11 +27,24 @@
 }
 .small-card{
     /* border: 1px solid green; */
-    padding: 5px;
+   
+    overflow: hidden;
     border-radius: 0px 0px 10px 10px;
+    /* height: 5.2rem; */
+    box-sizing: border-box;
+    /* margin: 0 auto; */
+    padding: 0px 0px 0px 5px;
+    /* height: 10vh; */
 }
 
-
+/* .img-back{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    
+    width: 100%;
+} */
 
 @media (max-width: 480px) {
     .cardBody{

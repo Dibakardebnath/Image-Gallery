@@ -75,13 +75,14 @@ nav .menu span {
     }
 
     nav ul {
+        /* border: 1px solid red; */
     
 
         display: none;
         flex-direction: column;
         width: 100%;
         margin-bottom: 0.25rem;
-        text-align: left;
+        /* text-align: left; */
     }
 
     nav ul.open {
@@ -90,10 +91,10 @@ nav .menu span {
     }
 
     nav ul li {
-        border: 1px solid red;
+        /* border: 1px solid red; */
 
-        width: 100%;
-        text-align: left;
+        width: 80%;
+        text-align: center;
     }
 
     nav ul li a {
