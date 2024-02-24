@@ -26,15 +26,12 @@
     box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
 }
 .small-card{
-    /* border: 1px solid green; */
    
     overflow: hidden;
     border-radius: 0px 0px 10px 10px;
-    /* height: 5.2rem; */
     box-sizing: border-box;
-    /* margin: 0 auto; */
     padding: 0px 0px 0px 5px;
-    /* height: 10vh; */
+ 
 }
 
 /* .img-back{
@@ -50,12 +47,7 @@
     .cardBody{
         display: grid;
         grid-template-columns: repeat(2,1fr);
-        /* border: 2px solid blue; */
-        /* width: max-content;
-        margin: 2% auto;
-        gap:20px;
-     */
-
+       
        
     }
     .card{
